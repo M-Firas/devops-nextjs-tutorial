@@ -34,4 +34,4 @@ jobs:
           configFile: commitlint.config.cjs
 
       - name: Build Docker Image
-        run: docker build -t devops-nextjs-tutorial:1.0 .
+        run: docker build -t devops-nextjs-tutorial:latest .
